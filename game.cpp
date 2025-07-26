@@ -41,7 +41,7 @@ int main()
 	}
 	cout << " CREATED BY :   " << endl;
 	cout << endl;
-	cout << "    HUSNAIN ALI   (22L-6562)" << endl;
+	cout << "    MUHAMMAD HUSNAIN ALI " << endl;
 	int getch();
 	char n;
 	while (1)
