@@ -24,40 +24,32 @@ Brick Breaker is an engaging arcade game where players control a paddle to bounc
 
 ## 💻 Requirements
 - Windows Operating System
-- Microsoft Visual Studio (2019 or later)
+- Microsoft Visual Studio (2022 or later)
   - Desktop development with C++ workload must be installed
   - Windows SDK must be installed
 - Minimum screen resolution: 1024x768
 
 ## 🚀 Installation & Setup
-1. **Visual Studio Installation**
-   - Download and install Visual Studio from [official website](https://visualstudio.microsoft.com/)
-   - During installation, select "Desktop development with C++" workload
-   - Ensure "Windows SDK" is selected in the installation options
+1. **Prerequisites**
+   - Install Visual Studio 2022 or later from [official website](https://visualstudio.microsoft.com/)
+   - During installation, make sure to select "Desktop development with C++" workload
 
-2. **Project Setup**
+2. **Create New Project**
    - Open Visual Studio
-   - Go to `File > New > Project`
-   - Select `Empty Project` under C++ templates
-   - Name your project and choose location
-   - Click `Create`
+   - Click `Create a new project`
+   - Search for and select `Empty Project` (C++)
+   - Choose a name for your project and click `Create`
 
-3. **Adding Source Files**
-   - In Solution Explorer, right-click on `Source Files`
-   - Select `Add > Existing Item`
-   - Browse and select `game.cpp`
-   - Similarly, add `yourgraphics.h` to `Header Files`
+3. **Add Project Files**
+   - Copy `game.cpp` and `yourgraphics.h` into your project folder
+   - In Solution Explorer, right-click on `Source Files` → `Add` → `Existing Item`
+   - Select `game.cpp`
+   - Right-click on `Header Files` → `Add` → `Existing Item`
+   - Select `yourgraphics.h`
 
-4. **Configure Project Settings**
-   - Right-click on your project in Solution Explorer
-   - Select `Properties`
-   - Under `Configuration Properties > Linker > Input`
-   - Add `gdi32.lib` and `user32.lib` to `Additional Dependencies`
-   - Click `Apply` and `OK`
-
-5. **Build and Run**
-   - Press `F5` to build and run the game
-   - Or use `Build > Build Solution` (F7) and then run
+4. **Run the Game**
+   - Press `F5` to build and run
+   - Or use the green play button in the toolbar
 
 ## ⚠️ Common Issues
 - If using MinGW or g++ directly, the compilation will fail due to Windows-specific graphics functions
